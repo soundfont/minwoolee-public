@@ -96,6 +96,15 @@ Times out a member for a specified duration (max 28 days).
 
 Moderate Members
 
+untimeout
+-
+uto
+
+Removes a timeout from a member.
+
+.untimeout <@user> [reason]
+
+Moderate Members
 
 membercount
 -
