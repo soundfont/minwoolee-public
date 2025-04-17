@@ -1,4 +1,4 @@
-minwoolee is a private Discord bot designed for server moderation and utility tasks.
+minwoolee is a public, closed-source Discord bot designed for server moderation and utility tasks.
 
 Command Prefix: .  
 
