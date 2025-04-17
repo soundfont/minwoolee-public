@@ -1,10 +1,6 @@
-minwoolee is a private Discord bot designed for server moderation and utility tasks.It provides commands for managing messages, moderating members, and displaying server statistics,with a clean embed format featuring the server icon.
-Features
+minwoolee is a private Discord bot designed for server moderation and utility tasks.
 
-Command Prefix: .
-Moderation: Purge messages, kick, ban, or timeout members.
-Utility: Display human, bot, and total member counts in an embed.
-Custom Embeds: All embeds include the server icon as a thumbnail (if available).
+Command Prefix: .  
 
 Formatting
 -
