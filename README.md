@@ -7,8 +7,11 @@ Formatting
 Command
 -
 Alias
+
 Description
+
 Usage
+
 Required Permissions
 
 
