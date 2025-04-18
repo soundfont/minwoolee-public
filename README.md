@@ -1,128 +1,78 @@
-minwoolee is a public, closed-source Discord bot designed for server moderation and utility tasks.
+# minwoolee Discord Bot
 
-Command Prefix: .
+**minwoolee** is a private Discord bot designed for **server moderation** and **utility tasks**. It provides commands for managing messages, moderating members, and displaying server statistics — all with a clean, consistent embed format that includes the server icon.
 
-Formatting
--
-Command
--
-Alias
+> This bot is still a work in progress as new features and commands are actively being developed by the collaborators.
 
-Description
+---
 
-Usage
+## Features
 
-Required Permissions
+- **Command Prefix:** `.`  
+- **Moderation Tools:** Kick, ban, timeout, and purge messages.
+- **Utility Tools:** Display counts of humans, bots, and total members.
+- **Clean Embeds:** All embed messages display the server icon (if available) as a thumbnail for consistent branding.
 
+---
 
+## Command Reference
 
-help
--
+**Command**: `<name>`  
+**Alias**: `<alias if applicable>`  
+**Description**: `<what the command does>`  
+**Usage**: `<syntax>`  
+**Permissions**: `<required Discord permissions>`
 
-Shows a list of all commands with documentation link.
+---
 
-.help
+### `.ping`
 
-None (Embed Links for bot)
+- **Description:** Shows the bot's latency in milliseconds.  
+- **Usage:** `.ping`  
+- **Permissions:** None
 
+---
 
-ping
--
+### `.purge <amount>`
 
-Shows the bot's latency in milliseconds.
+- **Description:** Deletes a specified number of messages (1–100).  
+- **Usage:** `.purge 25`  
+- **Permissions:** Manage Messages
 
-.ping
+---
 
-None
+### `.kick <@user> [reason]`
 
+- **Description:** Kicks a member from the server.  
+- **Usage:** `.kick @User Spamming`  
+- **Permissions:** Kick Members
 
-purge
--
+---
 
-Deletes a specified number of messages (1–100).
+### `.ban <@user> [reason]`
 
-.purge <amount>
+- **Description:** Bans a member from the server.  
+- **Usage:** `.ban @User Inappropriate behavior`  
+- **Permissions:** Ban Members
 
-Manage Messages
+---
 
+### `.timeout <@user> <minutes> [reason]`
 
-kick
--
+- **Description:** Temporarily times out a member (max 28 days).  
+- **Usage:** `.timeout @User 30 Being disruptive`  
+- **Permissions:** Moderate Members
 
-Kicks a member from the server.
+---
 
-.kick <@user> [reason]
+### `.membercount`
 
-Kick Members
+- **Description:** Displays the number of human members, bots, and total users in an embed.  
+- **Usage:** `.membercount`  
+- **Permissions:** None
 
+---
 
-ban
--
+## Upcoming Commands
 
-Bans a member from the server.
-
-.ban <@user> [reason]
-
-Ban Members
-
-
-unban
--
-
-Unbans a member, allowing them to rejoin the server.
-
-.unban <user> [reason]
-
-Ban Members
-
-
-bans
--
-
-Lists all banned users in the server (up to 10 shown).
-
-.bans
-
-Ban Members
-
-
-timeout
--
-to
-
-Times out a member for a specified duration (max 28 days).
-
-.timeout <@user> <minutes> [reason]
-
-Moderate Members
-
-untimeout
--
-uto
-
-Removes a timeout from a member.
-
-.untimeout <@user> [reason]
-
-Moderate Members
-
-membercount
--
-
-mc
-
-Displays human, bot, and total member counts in an embed.
-
-.membercount
-
-None (Embed Links for bot)
-
-
-afk
--
-
-Sets or removes AFK status in the current server.
-
-.afk [reason] or .afk off
-
-None (Embed Links for bot)
+Stay tuned! More moderation and utility commands are in development. This README will be updated accordingly.
