@@ -9,8 +9,8 @@
 ## Features
 
 - **Command Prefix:** `.`  
-- **Moderation Tools:** Kick, ban, timeout, and purge messages.
-- **Utility Tools:** Display counts of humans, bots, and total members.
+- **Moderation Tools:** Kick, ban, timeout, and purge messages.  
+- **Utility Tools:** Display counts of humans, bots, and total members.  
 - **Clean Embeds:** All embed messages display the server icon (if available) as a thumbnail for consistent branding.
 
 ---
@@ -76,3 +76,13 @@
 ## Upcoming Commands
 
 Stay tuned! More moderation and utility commands are in development. This README will be updated accordingly.
+
+---
+
+## Authors
+
+Developed and maintained by:
+
+- [**soundfont**](https://github.com/soundfont)  
+- [**Rafan Ahmed**](https://github.com/RafanAhmed)
+
