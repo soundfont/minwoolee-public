@@ -170,7 +170,7 @@
 
 ## Automatic Features
 
-### Message Reactions (via `reactor.py`)
+### Message Reactions
 
 -   The bot automatically reacts to messages containing specific phrases:
     -   "y/n": Reacts with ⬆️ and ⬇️ (if other text is present and it's the last trigger).
